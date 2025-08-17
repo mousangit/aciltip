@@ -1,0 +1,24 @@
+name: aciltip
+description: "Acil Tip Asistanı"
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  supabase_flutter: ^2.9.1
+  intl: ^0.20.2          # flutter_localizations 0.20.2 istiyor → uyumlu
+  flutter_localizations:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0   # İstersen 6.x'e sonra geçeriz
+
+flutter:
+  uses-material-design: true
